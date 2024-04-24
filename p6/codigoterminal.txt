@@ -1,0 +1,158 @@
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p5/enlace1$ ls
+Arch1.txt  Arch2.txt  pregunta5.txt
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p5/enlace1$ cd ..
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/.local/share/Trash/files/p5$ cd ..
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/.local/share/Trash/files$ cd ..
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/.local/share/Trash$ cd ..
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/.local/share$ cd ~ç
+bash: cd: ~ç: No existe el archivo o el directorio
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/.local/share$ cd ~
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~$ cd
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~$ ls
+Descargas  Documentos  Escritorio  Imágenes  Música  Plantillas  Público  snap  Vídeos
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~$ cd Escritorio
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio$ mkdir -p p6
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio$ ls
+ act12   actividad9.txt   Compartido  'ejemplo act13'   p6   practica   prueba
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio$ cd p6
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ nano
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ chmod p5.sh
+chmod: falta un operando después de «p5.sh»
+Pruebe 'chmod --help' para más información.
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ ./p5.sh
+bash: ./p5.sh: Permiso denegado
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ ls -l
+total 4
+-rw-rw-r-- 1 ubuntu-ds ubuntu-ds 326 abr 15 21:16 p5.sh
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ chmod +x p5.sh
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ ./p5.sh
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ nano p5.sh
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ ./p5.sh
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ nano p5.sh
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ ./p5.sh
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ tree p5.sh
+p5.sh  [error opening dir]
+
+0 directories, 0 files
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ ls
+p5.sh  Proyecto
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ tree Proyecto
+Proyecto
+├── app.py
+├── assets
+│   ├── fuentes
+│   ├── iconos
+│   └── imagenes
+├── config
+├── data
+│   ├── external_data
+│   ├── processed_data
+│   └── raw_data
+├── docs
+├── models
+├── notebooks
+├── results
+│   ├── archivos_salida
+│   ├── graficos
+│   └── tablas
+├── scripts
+└── utils
+    ├── aplication_logger
+    ├── models
+    └── test
+
+21 directories, 1 file
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ tree -a Proyecto
+Proyecto
+├── app.py
+├── assets
+│   ├── fuentes
+│   ├── iconos
+│   └── imagenes
+├── config
+├── data
+│   ├── external_data
+│   ├── processed_data
+│   └── raw_data
+├── docs
+├── .git
+│   ├── config
+│   └── .gitignore
+├── models
+├── notebooks
+├── results
+│   ├── archivos_salida
+│   ├── graficos
+│   └── tablas
+├── scripts
+└── utils
+    ├── aplication_logger
+    ├── models
+    └── test
+
+24 directories, 1 file
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ cd Proyecto
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6/Proyecto$ cd .git
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6/Proyecto/.git$ ls
+config
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6/Proyecto/.git$ cd ..
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6/Proyecto$ cd ..
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ nano p5.sh
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ ./p5.sh
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ nano p5.sh
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ ls
+p5.sh
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ ./p5.sh
+./p5.sh: línea 14: error sintáctico cerca del elemento inesperado `done'
+./p5.sh: línea 14: `done'
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ nano p5.sh
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ ./p5.sh
+Estructura del proyecto creada exitosamente en la carpeta ´Proyecto'.
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ tree -a p5.sh
+p5.sh  [error opening dir]
+
+0 directories, 0 files
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/p6$ tree -a Proyecto
+Proyecto
+├── app.py
+├── assets
+│   ├── fuentes
+│   ├── iconos
+│   └── imagenes
+├── config
+│   ├── configuracion.json
+│   └── configuracion.yaml
+├── data
+│   ├── external_data
+│   ├── processed_data
+│   └── raw_data
+├── docs
+│   ├── descripciones_metodos.md
+│   └── informes.md
+├── .git
+│   ├── config
+│   └── .gitignore
+├── models
+│   ├── modelo_entrenado.h5
+│   └── modelo_entrenado.pkl
+├── notebooks
+│   ├── 01-primer-cuaderno.ipynb
+│   ├── 02-segundo-cuaderno.ipynb
+│   └── prototipo-cuaderno.ipynb
+├── results
+│   ├── archivos_salida
+│   ├── graficos
+│   └── tablas
+├── scripts
+│   ├── limpieza_datos.py
+│   └── transformaciones.py
+└── utils
+    ├── aplication_logger
+    │   └── app_logger.py
+    ├── models
+    │   └── data_processing.py
+    └── test
+        └── test_app.py
+
+24 directories, 15 files
+

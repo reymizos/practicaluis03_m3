@@ -1,0 +1,136 @@
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~$ cd Escritorio
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio$ cd Proyecto
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ ls
+app.py  assets  config  data  docs  models  notebooks  results  scripts  utils
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ cd utils 
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/utils$ ls
+aplication_logger  models  test
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/utils$ touch aplication_logger/app_logger.py
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/utils$ ls aplication_logger
+app_logger.py
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/utils$ touch models/data_processing.py
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/utils$ touch test/test_app.py
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/utils$ cd ..
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ cd notebooks
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/notebooks$ touch 01-primer-cuaderno.ipynb 02-segundo-cuaderno.ipynb prototipo-cuaderno.ipynb
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/notebooks$ ls
+01-primer-cuaderno.ipynb  02-segundo-cuaderno.ipynb  prototipo-cuaderno.ipynb
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/notebooks$ cd ..
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ cd data
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/data$ mkdir raw_data processed_data external_data
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/data$ ls
+external_data  processed_data  raw_data
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/data$ cd ..
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ cd results
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/results$ mkdir graficos tablas archivos_salida 
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/results$ cd ..
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ cd docs
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/docs$ mkdir informes descripciones_metodos
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/docs$ ls
+descripciones_metodos  informes
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/docs$ cd ..
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ mkdir config/archivos_configuracion
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ ls config
+archivos_configuracion
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ mkdir assets/imagenes fuentes iconos
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ ls assets
+imagenes
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ ls assets/fuentes
+ls: no se puede acceder a 'assets/fuentes': No existe el archivo o el directorio
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ mkdir assets/fuentes
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ mkdir assets/iconos 
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ ls assets
+fuentes  iconos  imagenes
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ mkdir models/modelos_entrenados
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ ls models
+modelos_entrenados
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ cd scripts
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/scripts$ touch limpieza_datos.py
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/scripts$ touch transformaciones.py
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/scripts$ ls
+limpieza_datos.py  transformaciones.py
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto/scripts$ cd ..
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ tree 
+.
+├── app.py
+├── assets
+│   ├── fuentes
+│   ├── iconos
+│   └── imagenes
+├── config
+│   └── archivos_configuracion
+├── data
+│   ├── external_data
+│   ├── processed_data
+│   └── raw_data
+├── docs
+│   ├── descripciones_metodos
+│   └── informes
+├── fuentes
+├── iconos
+├── models
+│   └── modelos_entrenados
+├── notebooks
+│   ├── 01-primer-cuaderno.ipynb
+│   ├── 02-segundo-cuaderno.ipynb
+│   └── prototipo-cuaderno.ipynb
+├── results
+│   ├── archivos_salida
+│   ├── graficos
+│   └── tablas
+├── scripts
+│   ├── limpieza_datos.py
+│   └── transformaciones.py
+└── utils
+    ├── aplication_logger
+    │   └── app_logger.py
+    ├── models
+    │   └── data_processing.py
+    └── test
+        └── test_app.py
+
+27 directories, 9 files
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ rm -r fuentes
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ rm -r iconos 
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ ls
+app.py  assets  config  data  docs  models  notebooks  results  scripts  utils
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ tree
+.
+├── app.py
+├── assets
+│   ├── fuentes
+│   ├── iconos
+│   └── imagenes
+├── config
+│   └── archivos_configuracion
+├── data
+│   ├── external_data
+│   ├── processed_data
+│   └── raw_data
+├── docs
+│   ├── descripciones_metodos
+│   └── informes
+├── models
+│   └── modelos_entrenados
+├── notebooks
+│   ├── 01-primer-cuaderno.ipynb
+│   ├── 02-segundo-cuaderno.ipynb
+│   └── prototipo-cuaderno.ipynb
+├── results
+│   ├── archivos_salida
+│   ├── graficos
+│   └── tablas
+├── scripts
+│   ├── limpieza_datos.py
+│   └── transformaciones.py
+└── utils
+    ├── aplication_logger
+    │   └── app_logger.py
+    ├── models
+    │   └── data_processing.py
+    └── test
+        └── test_app.py
+
+25 directories, 9 files
+ubuntu-ds@ubuntuds-QEMU-Virtual-Machine:~/Escritorio/Proyecto$ 
+

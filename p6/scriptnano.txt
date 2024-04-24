@@ -1,0 +1,21 @@
+  GNU nano 6.2                                                             p5.sh                                                                      
+#!/bin/bash
+
+# Creo la carpeta principal "Proyecto"
+mkdir -p Proyecto
+
+#Creo todas los directorios que van dentro de "Proyecto"
+touch Proyecto/app.py
+mkdir -p Proyecto/utils Proyecto/utils/aplication_logger Proyecto/utils/models Proyecto/utils/test Proyecto/notebooks Proyecto/data Proyecto/data/raw>
+
+#Creo todos los archivos que irán dentro de los subdirectorios.
+
+touch Proyecto/utils/aplication_logger/app_logger.py Proyecto/utils/models/data_processing.py Proyecto/utils/test/test_app.py Proyecto/notebooks/01-p>
+
+
+echo "Estructura del proyecto creada exitosamente en la carpeta ´Proyecto'."
+
+
+
+
+
